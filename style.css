@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7541fe;
+    background-image: linear-gradient(43deg, #7541fe 0%, #7800ff 46%, #19051f 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+}
+
+.logoCabecalho{
+    width: 8%;
+    position: relative;
+    right:26%;
+}
+
+.titulo1{
+    color: white;
+    float: left;
+    margin-top:1%;
+    position: relative;
+    left: 15%;
+    font-size: 1.7em ;
+}
+
+.lista, .lista1{
+    display: inline-block;
+    color:white;
+    font-size: 1em;
+    margin-right: 40px;
+    position: relative;
+    right:50px;
+    bottom: 10px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    padding: 0.5em;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            #7800ff 90%,
+            #7800ff 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+    cursor: pointer;
+}
+.lista1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.titulo2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 2em;
+    font-size: 2.5em;
+    text-shadow:
+    2.3px 2.3px 1.8px rgba(0, 0, 0, 0.18),
+    5.4px 5.4px 4px rgba(0, 0, 0, 0.228),
+    9.7px 9.7px 7.1px rgba(0, 0, 0, 0.247),
+    16.1px 16.1px 11.9px rgba(0, 0, 0, 0.249),
+    26.5px 26.5px 20.7px rgba(0, 0, 0, 0.239),
+    46.2px 46.2px 39.3px rgba(0, 0, 0, 0.218),
+    100px 100px 80px rgba(0, 0, 0, 0.19)
+  ;
+  
+    
+}
+
+.logo{
+    width: 30em;
+    position: relative;
+    left: 35%;
+    top: 7em;
+    
+}
+.shake-top{
+    width: 7em;
+    height: 1.5em;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    position: relative;
+    left: 9%;
+    cursor: pointer;
+    top:25%;
+    box-shadow:
+  2.3px 2.3px 1.8px rgba(0, 0, 0, 0.18),
+  5.4px 5.4px 4px rgba(0, 0, 0, 0.228),
+  9.7px 9.7px 7.1px rgba(0, 0, 0, 0.247),
+  16.1px 16.1px 11.9px rgba(0, 0, 0, 0.249),
+  26.5px 26.5px 20.7px rgba(0, 0, 0, 0.239),
+  46.2px 46.2px 39.3px rgba(0, 0, 0, 0.218),
+  100px 100px 80px rgba(0, 0, 0, 0.19)
+;
+    -webkit-animation:shake-top 2s cubic-bezier(.455,.03,.515,.955) infinite both;animation:shake-top 2s cubic-bezier(.455,.03,.515,.955) infinite both}
+@keyframes shake-top{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 0;transform-origin:50% 0}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-top{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 0;transform-origin:50% 0}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
+
+.detail{
+    color:black;
+    font-weight: bold;
+}
+
+.pqStab{
+    width: 100%;
+    /* mudar altura responsividade 90vh*/
+    height: 100vh;
+    background-color: rgb(47, 47, 47);
+    position: relative;
+    top: 21em;
+}
+
+.titulo3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    position: relative;
+    top:1em;
+    text-shadow:
+    2.3px 2.3px 1.8px #7800ff ,
+    5.4px 5.4px 4px #7800ff ,
+    9.7px 9.7px 7.1px #7800ff ,
+    16.1px 16.1px 11.9px #7800ff ,
+    26.5px 26.5px 20.7px #7800ff ,
+    46.2px 46.2px 39.3px #7800ff ,
+    100px 100px 80px #7800ff ;
+}
+
+.setaRoxa{
+    width: 40px;
+    position: relative;
+    left: 18em;
+    top:8em;
+}
+
+.lista2{
+    color:white;
+    font-size: 1.3em;
+    position: relative;
+    left: 17em;
+    top:4.3em;
+    list-style: none;
+}
+
+.tela{
+    width: 45em;
+    position: relative;
+    bottom: 27em;
+    left: 55em;
+}
+.containerInstrutores{
+    background-color: #7800ff;
+    height: 150vh;
+}
+.instrutores{
+    color: white;
+    position: relative;
+    top: 8em;
+    font-size: 3em ;
+    text-align: center;
+    text-shadow:
+    2.3px 2.3px 1.8px rgba(0, 0, 0, 0.18),
+    5.4px 5.4px 4px rgba(0, 0, 0, 0.228),
+    9.7px 9.7px 7.1px rgba(0, 0, 0, 0.247),
+    16.1px 16.1px 11.9px rgba(0, 0, 0, 0.249),
+    26.5px 26.5px 20.7px rgba(0, 0, 0, 0.239),
+    46.2px 46.2px 39.3px rgba(0, 0, 0, 0.218),
+    100px 100px 80px rgba(0, 0, 0, 0.19)
+  ;
+}
+
+.terezinha{
+    color: white;
+    text-decoration-line: none;
+    position: absolute;
+    top: 76.5em;
+    font-size: 1.5em;
+    left: 14em;
+}
+.fotoTerezinha{
+    width: 250px;
+    position: relative;
+    border-radius: 10%;
+    left: 20%;
+    top: 28.4em;
+}
+
+.sean{
+    color: white;
+    position: relative;
+    top: 20.5em;
+    left: 28em;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 200px;
+}
+
+.fotoSean{
+    width: 250px;
+    position: relative;
+    border-radius: 10%;
+    left: 26%;
+    top: 28em;
+}
+
+.bigas{
+    color: white;
+    position: relative;
+    top: 19.5em;
+    float: right;
+    right: 13em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+.fotoBigas{
+    width: 250px;
+    position: relative;
+    border-radius: 10%;
+    left: 65%;
+    top: 15.5em;
+}
+
+.historiaInstrutores{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 12em;
+    font-size: 40px;
+}
+
+.store{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(47, 47, 47);
+    position: relative;
+}
+
+.carrinho{
+    position: relative;
+    width: 50px;
+    float: right;
+    right: 8em;
+    top: 3em;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.carrinho:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.tituloStore{
+    color:white;
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    top: 2em;
+    text-shadow:
+    2.3px 2.3px 1.8px #7800ff ,
+    5.4px 5.4px 4px #7800ff ,
+    9.7px 9.7px 7.1px #7800ff ,
+    16.1px 16.1px 11.9px #7800ff ,
+    26.5px 26.5px 20.7px #7800ff ,
+    46.2px 46.2px 39.3px #7800ff ,
+    100px 100px 80px #7800ff ;
+    
+}
+
+.moletom, .bone, .garrafa{
+    width: 200px;
+}
+
+.moletom{
+    position: relative;
+    top: 14em;
+    width: 200px;
+    left: 20%;
+    border-radius: 20px;
+}
+
+.garrafa{
+    position: relative;
+    top: 14em;
+    width: 200px;
+    height: 293px;
+    left:40%;
+    border-radius: 20px;
+}
+
+.bone{
+    width: 200px;
+    position: relative;
+    top:5em;
+    left: 30%;
+    border-radius: 20px;
+}
+
+.tituloMoletom {
+    position: absolute;
+    top: 25em;
+    left: 12.5em;
+    color: white;
+    text-align: center;
+}
+
+.boneTrucker{
+    position: absolute;
+    top: 19em;
+    left: 28.5em;
+    color: white;
+    text-align: center;
+}
+.tituloGarrafa{
+    position: absolute;
+    top: 25em;
+    left: 43em;
+    color: white;
+    text-align: center;
+}
+
+.btnMoletom, .btnGarrafa, .btnBone{
+position: absolute;
+color:white;
+width: 130px;
+height: 30px;
+font-size: 15px;
+border:none;
+border-radius: 20px;
+background-color: #7541fe;
+cursor: pointer;
+-webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+
+}
+.btnMoletom:hover, .btnGarrafa:hover, .btnBone:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.btnMoletom{
+top:47em;
+left: 340px
+}
+.btnBone{
+    top:37em;
+right: 690px;
+}
+.btnGarrafa{
+    top:47em;
+    right: 330px;
+}
+
+@media only screen and (max-device-width: 1535px){
+
+    .shake-top{
+    position: relative;
+        right: 20%;
+    }
+    .terezinha{
+        left: 21.5%;
+    }
+    .sean{
+        right: 2%;
+    }
+    .bigas{
+        position: absolute;
+        top: 193.5%;
+        right: 24.5%;
+    }
+}
+
+@media only screen and (min-device-width: 1630px){
+
+    .shake-top{
+        position: absolute;
+        left: 40%;
+        top: 49%;
+    }
+    .pqStab{
+        height: 80vh;
+    }
+    .containerInstrutores{
+        height: 110vh;
+    }
+    .terezinha{
+        position: absolute;
+        top: 191.5%;
+        left: 22%;
+    }
+    .sean{
+        position: relative;
+        right:2%;
+    }
+    .fotoSean{
+        position: relative;
+        left:29%;
+    }
+    .bigas{
+        position: relative;
+        right: 24%;
+    }
+    .tituloMoletom{
+        position: absolute;
+        right: 65%;
+    }
+    .btnMoletom{
+        position: absolute;
+        left: 22%;
+    }
+    .store{
+        height: 90vh;
+    }
+    .boneTrucker{
+        position: absolute;
+        left:42%;
+    }
+    .btnBone{
+        position: absolute;
+        left: 42.5%;
+    }
+    
+.tituloGarrafa{
+    position: absolute;
+    left: 62%;
+}
+.btnGarrafa{
+    left:63.5%;
+}
+.tituloStore{
+    position: relative;
+    right:3%;
+}
+}
